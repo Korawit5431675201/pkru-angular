@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title:string = 'My Angular Application';
   version:Number = 1.0;
-  disabled:boolean = true;
+  disabled:boolean = false;
 
   changeTitle(event){
     console.log(event.target.value);
